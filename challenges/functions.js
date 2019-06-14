@@ -39,8 +39,11 @@ console.log(consume('Mary', 'Poppins', greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
+// Both values are included in the same local environment.  I'm pretty sure, though, that 'nestedfunction()' could also access 'external'.
+
 // Explanation: 
 
+// See above?  Not sure if this is another prompt...
 
 // const external = "I'm outside the function";
 
